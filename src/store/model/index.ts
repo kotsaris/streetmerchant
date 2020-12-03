@@ -55,6 +55,7 @@ import {ProshopDE} from './proshop-de';
 import {ProshopDK} from './proshop-dk';
 import {Saturn} from './saturn';
 import {Scan} from './scan';
+import {SmythsIE} from './smyths-ie';
 import {Store} from './store';
 import {Target} from './target';
 import {TopAchat} from './topachat';
@@ -128,7 +129,8 @@ export const storeList = new Map([
 	[VsGamers.name, VsGamers],
 	[Walmart.name, Walmart],
 	[Xbox.name, Xbox],
-	[Zotac.name, Zotac]
+	[Zotac.name, Zotac],
+	[SmythsIE.name, SmythsIE]
 ]);
 
 const brands = new Set();
